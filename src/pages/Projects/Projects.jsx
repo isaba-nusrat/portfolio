@@ -8,7 +8,7 @@ function Projects() {
     {
       name: "Apex Legends Bot Brawl",
       description:
-        "Industry hackathon team project for EA. Winning team of the hackathon.",
+        "Industry hackathon TEAM PROJECT for EA. This project won the hackathon. Click to see my contribution to this project.",
       image: project1,
       repoUrl: "https://github.com/isaba-nusrat/brainstation-ea-project",
     },
