@@ -34,9 +34,9 @@ function Projects() {
                 style={{ width: "100%", height: "auto" }}
                 className="project-image"
               />
+              <h2>{project.name}</h2>
+              <p>{project.description}</p>
             </a>
-            <h2>{project.name}</h2>
-            <p>{project.description}</p>
           </div>
         ))}
       </div>
