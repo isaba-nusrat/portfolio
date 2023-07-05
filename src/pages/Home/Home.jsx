@@ -17,10 +17,9 @@ function Home() {
               Hello, I'm <span>Isaba</span>!
             </h1>
             <p>
-              Welcome to my portfolio! I'm a full-stack web developer who loves
-              creating beautiful websites. When I'm not coding, you can find me
-              engrossed in books or enjoying anime. And yes, I'm addicted to
-              coffee!
+              A full-stack web developer who loves creating beautiful websites.
+              When I'm not coding, you can find me engrossed in books or
+              enjoying anime. And yes, I'm addicted to coffee!
             </p>
           </div>
           <div className="home__avatar">

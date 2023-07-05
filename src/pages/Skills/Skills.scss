@@ -76,3 +76,13 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .skills {
+    &__front-end,
+    &__back-end,
+    &__software {
+      width: 98%;
+    }
+  }
+}
