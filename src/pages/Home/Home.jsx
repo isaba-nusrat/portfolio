@@ -4,6 +4,7 @@ import Navigation from "../../components/Navigation/Navigation";
 import avatar from "../../assets/images/avatar1.svg";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
   return (
@@ -15,7 +16,12 @@ function Home() {
             <h1>
               Hello, I'm <span>Isaba</span>!
             </h1>
-            <p>Front-end web developer.</p>
+            <p>
+              Welcome to my portfolio! I'm a full-stack web developer who loves
+              creating beautiful websites. When I'm not coding, you can find me
+              engrossed in books or enjoying anime. And yes, I'm addicted to
+              coffee!
+            </p>
           </div>
           <div className="home__avatar">
             <img src={avatar} alt="" className="avatar-image" />
@@ -27,6 +33,9 @@ function Home() {
       </div>
       <div id="projects">
         <Projects />
+      </div>
+      <div id="footer">
+        <Footer />
       </div>
     </div>
   );

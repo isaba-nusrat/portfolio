@@ -2,6 +2,7 @@ import React from "react";
 import "./Skills.scss";
 import figmaIcon from "../../assets/icons/software/figma.png";
 import gitIcon from "../../assets/icons/software/git.png";
+import jiraIcon from "../../assets/icons/software/jira.png";
 
 import htmlIcon from "../../assets/icons/front-end/html.png";
 import cssIcon from "../../assets/icons/front-end/css.png";
@@ -12,6 +13,7 @@ import jsonIcon from "../../assets/icons/front-end/json.png";
 
 import expressIcon from "../../assets/icons/back-end/express-js.png";
 import nodeIcon from "../../assets/icons/back-end/nodejs.png";
+import mysqlIcon from "../../assets/icons/back-end/mysql.png";
 
 function Skills() {
   return (
@@ -58,6 +60,10 @@ function Skills() {
               <img src={nodeIcon} alt="" />
               <p>Node</p>
             </div>
+            <div>
+              <img src={mysqlIcon} alt="" />
+              <p>MySQL</p>
+            </div>
           </div>
         </div>
         <div className="skills__software">
@@ -70,6 +76,10 @@ function Skills() {
             <div>
               <img src={gitIcon} alt="" />
               <p>Git</p>
+            </div>
+            <div>
+              <img src={jiraIcon} alt="" />
+              <p>Jira</p>
             </div>
           </div>
         </div>
