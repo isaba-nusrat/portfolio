@@ -1,6 +1,7 @@
 import React from "react";
 import project1 from "../../assets/images/projects/project1.png";
 import project2 from "../../assets/images/projects/project2.png";
+import project3 from "../../assets/images/projects/project3.png";
 import "./Projects.scss";
 
 function Projects() {
@@ -18,6 +19,12 @@ function Projects() {
         "A simple anime search website. Users can search anime and see details.",
       image: project2,
       repoUrl: "https://github.com/isaba-nusrat/anime-search-engine",
+    },
+    {
+      name: "Solar System",
+      description: "A solar system created wth HTML and CSS animation.",
+      image: project3,
+      repoUrl: "https://github.com/isaba-nusrat/solar-system",
     },
   ];
 
